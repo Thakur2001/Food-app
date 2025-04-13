@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React js ",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Dhruv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thakur2001/react/issues"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
