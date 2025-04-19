@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonials from "./Testimonials";
 
 const About = () => {
   return (
@@ -8,15 +9,18 @@ const About = () => {
         <div className="about-card">
           <h2>Our Story</h2>
           <p>
-            Welcome to Foodie, your ultimate destination for discovering and ordering from the best restaurants in town. 
-            We're passionate about connecting food lovers with amazing dining experiences.
+            Welcome to Foodie, your ultimate destination for discovering and
+            ordering from the best restaurants in town. We're passionate about
+            connecting food lovers with amazing dining experiences.
           </p>
         </div>
         <div className="about-card">
           <h2>Our Mission</h2>
           <p>
-            Our mission is to make food ordering simple, fast, and enjoyable. 
-            We strive to provide the best service while supporting local restaurants and delivering exceptional culinary experiences to our customers.
+            Our mission is to make food ordering simple, fast, and enjoyable. We
+            strive to provide the best service while supporting local
+            restaurants and delivering exceptional culinary experiences to our
+            customers.
           </p>
         </div>
         <div className="about-card">
@@ -30,6 +34,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <Testimonials />
     </div>
   );
 };
