@@ -41,7 +41,7 @@ const Body = () => {
       setRestList(fullList);
       setIsFiltered(false);
     } else {
-      const filtered = fullList.filter((res) => res.info.avgRating > 4.1);
+      const filtered = fullList.filter((res) => res.info.avgRating > 4.5);
       setRestList(filtered);
       setIsFiltered(true);
     }
